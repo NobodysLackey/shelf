@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Tktk Index' });
+router.get('/', (req, res, next) => {
+  res.render('index', { title: 'Shelf Index' });
 });
 
 module.exports = router;

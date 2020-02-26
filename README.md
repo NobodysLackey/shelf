@@ -1,10 +1,8 @@
-# shelf
-#### Started on: 02-26-2020
-# **Project Title**
+# **/shelf**
 
-### Date: MM/DD/YYYY
+### Date: 3/2/2020
 
-#### By: Developer Name
+#### By: Michael Lackey
 ***
 
 ### ***Description***
@@ -17,7 +15,8 @@
 * ##### JavaScript
 * ##### HTML
 * ##### CSS
-* ##### etc...
+* ##### Node.js/Express
+* ##### MongoDB/Mongoose
 ***
 
 ### ***Getting Started***
