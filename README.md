@@ -27,8 +27,8 @@
 
 ### ***Screenshots***
 
-###### Quick Image Description
-![Alt Text](url)
+###### Entity Relationship Diagram
+![ERD]('../public/images/ERD.png')
 ###### Quick Image Description
 ![Alt Text](url)
 ***
