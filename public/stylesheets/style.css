@@ -12,6 +12,7 @@ body {
 .logo {
   color: rgb(95, 70, 39);
   font-size: 30px;
+  font-weight: bold;
 }
 
 nav {
@@ -37,7 +38,8 @@ nav {
 }
 
 h1 {
-
+  color: rgb(95, 70, 39);
+  font-weight: bold;
 }
 
 h2 {
