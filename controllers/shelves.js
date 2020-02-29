@@ -1,4 +1,4 @@
-const Shelf = require("../models/shelf");
+const Shelf = require('../models/shelf');
 
 module.exports = {
   index
@@ -7,6 +7,6 @@ module.exports = {
 function index(req, res) {
   Shelf.find({}, (err, shelves) => {
     if (err) return next(err);
-    res.render("shelves/index", { shelves });
+    res.render('shelves/index', { shelves });
   });
 };
