@@ -3,6 +3,8 @@ const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
+const session = require('express-session');
+const passport = require('passport');
 const methodOverride = require('method-override');
 
 const indexRouter = require('./routes/index');
@@ -12,6 +14,7 @@ const booksRouter = require('./routes/books');
 
 require('dotenv').config();
 require('./config/database');
+require('./config/passport');
 
 const app = express();
 
@@ -25,6 +28,13 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(session({
+  secret: 's2h2e4l8f6!',
+  resave: false,
+  saveUninitialized: true
+}));
+app.use(passport.initialize());
+app.use(passport.session());
 
 app.use('/', indexRouter);
 app.use('/shelves', shelvesRouter);
