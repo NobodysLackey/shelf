@@ -7,7 +7,7 @@
 
 ### ***Description***
 
-##### "shelf" is an app that allows you to easily keep track of books.  Whether they are books you own, want, have read, etc.: it's up to you! Just select a book and put it on your shelf so you can reference it later! 
+##### Shelf is an app that allows you to easily keep track of books.  Whether they are books you own, want, have read, etc.: it's up to you! Just select a book and put it on your shelf so you can reference it later! 
 ***
 
 ### ***Technologies Used***

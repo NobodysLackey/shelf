@@ -1,9 +1,15 @@
 * {
-  font-family: sans-serif;
+  font-family: "American Typewriter", sans-serif;
 }
 
 body {
+  background-color: rgb(255, 191, 0);
+  color: rgb(43, 43, 43);
+}
 
+.logo {
+  color: rgb(67, 49, 27);
+  font-size: 30px;
 }
 
 h1 {

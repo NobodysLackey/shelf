@@ -6,10 +6,10 @@ const logger = require("morgan");
 
 const indexRouter = require("./routes/index");
 const shelvesRouter = require("./routes/shelves");
-const usersRouter = require('./routes/users');
+const usersRouter = require("./routes/users");
 
+require("dotenv").config();
 require("./config/database");
-require('dotenv').config();
 
 const app = express();
 
@@ -25,7 +25,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/", indexRouter);
 app.use("/shelves", shelvesRouter);
-app.use('/users', usersRouter);
+app.use("/users", usersRouter);
 
 // catch 404 and forward to error handler
 app.use( (req, res, next) => {
