@@ -2,8 +2,8 @@ const express = require('express');
 const router = express.Router();
 const passport = require('passport');
 
-router.get('/', (req, res, next) => {
-  res.render('index', { title: '/shelf' });
+router.get('/', (req, res) => {
+  res.redirect('/index');
 });
 
 router.get('/auth/google', passport.authenticate(

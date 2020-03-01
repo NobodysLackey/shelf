@@ -7,11 +7,18 @@ passport.use(new GoogleStrategy({
     clientSecret: process.env.GOOGLE_SECRET,
     callbackURL: process.env.GOOGLE_CALLBACK
   },
-  function(accessToken, refreshToken, profile, cb) {
-    User.findOne({ 'googleId': profile.id }, (err, user) => {
+  (accessToken, refreshToken, profile, cb) => {
+    User.findOne({googleId: profile.id}, (err, user) => {
       if (err) return cb(err);
       if (user) {
-        return cb(null, user);
+        if (!user.avatar) {
+          user.avatar = profile.photos[0].value;
+          user.save( (err) => {
+            return cb(null, user);
+          });
+      } else {
+          return cb(null, user);
+      }
       } else {
         // we have a new user via OAuth!
         let newUser = new User({

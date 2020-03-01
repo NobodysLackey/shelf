@@ -38,7 +38,24 @@ nav {
   color: rgb(255, 191, 0);
 }
 
-h1 {
+h1, h2, h3 {
   color: rgb(95, 70, 39);
   font-weight: bold;
+}
+
+.error {
+  width: 90vmin;
+  font-size: 8px;
+  text-align: left;
+  border-style: solid;
+  border-color: rgb(95, 70, 39);
+  border-width: 0.5px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(230, 173, 0);
+}
+
+.error:hover {
+  background-color: rgb(255, 204, 0);
+  cursor: help;
 }
