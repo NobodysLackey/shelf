@@ -1,12 +1,15 @@
 const Book = require('../models/book');
+const User = require('../models/user');
 
 module.exports = {
   index
 };
 
 function index(req, res) {
-  Book.find({}, (err, books) => {
+  User.find({}, (err, users) => {
     if (err) return next(err);
-    res.render('books/index', { books });
+    res.render('books/index', { 
+        users,
+        user: req.user });
   });
 };
