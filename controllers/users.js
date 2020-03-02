@@ -5,7 +5,6 @@ module.exports = {
 };
 
 function index(req, res) {
-  console.log(req.user);
   User.find({}, (err, users) => {
     if (err) return next(err);
     res.render('index', { 
