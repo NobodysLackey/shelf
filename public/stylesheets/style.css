@@ -23,7 +23,7 @@ body {
 nav {
   background-color: rgb(95, 70, 39);
   height: 30px;
-  /* box-shadow: 0px 2px 6px 2px; */
+  box-shadow: 0px 2px 6px 2px;
   display: flex;
   flex-direction: row;
   line-height: 30px;
@@ -31,7 +31,7 @@ nav {
 }
 
 .logo {
-  width: 20vmin;
+  width: 6vmin;
   height: 17px;
   margin: 13px 0px 0px 0px;
   order: 0;
@@ -43,7 +43,7 @@ nav {
 }
 
 .links {
-  width: 60vmin;
+  width: 88vmin;
   order: 1;
   display: flex;
   justify-content: space-between;
@@ -53,7 +53,7 @@ nav {
 }
 
 .sign-in {
-  width: 20vmin;
+  width: 6vmin;
   height: 17px;
   margin: 13px 0px 0px 0px;
   order: 2;
