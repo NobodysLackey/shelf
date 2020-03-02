@@ -9,6 +9,11 @@ body {
   text-align: center;
 }
 
+#main-page {
+  height: 100vmin;
+  line-height: 100vmin;
+}
+
 #logo {
   color: rgb(95, 70, 39);
   font-size: 30px;
@@ -49,6 +54,8 @@ nav {
 
 .sign-in {
   width: 20vmin;
+  height: 17px;
+  margin: 13px 0px 0px 0px;
   order: 2;
   display: flex;
   justify-content: flex-end;
@@ -58,21 +65,21 @@ nav {
 }
 
 #navlogo {
-  height: 17px;
-  width: 17px;
-  border-radius: 6px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
 }
 
 #avatar {
-  height: 17px;
-  width: 17px;
-  border-radius: 6px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
 }
 
 #anonatar {
-  height: 17px;
-  width: 17px;
-  border-radius: 6px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
 }
 
 .navlink {

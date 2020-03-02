@@ -17,11 +17,9 @@
             </div>
             <div class="sign-in">
             <% if (user) { %>
-                <a href="/logout" class="navlink">sign out</a>
-                <img src="<%= user.avatar %>" id="avatar">
+                <a href="/logout" class="navlink"><img src="<%= user.avatar %>" id="avatar"></a>
             <% } else { %>
-                <a href="/auth/google" class="navlink">sign in</a>
-                <img src="./images/anon.png" id="anonatar">
+                <a href="/auth/google" class="navlink"><img src="./images/anon.png" id="anonatar"></a>
             <% } %>
             </div>
         </nav>
