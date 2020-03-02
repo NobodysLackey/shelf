@@ -5,8 +5,8 @@ module.exports = {
 };
 
 function index(req, res) {
-  Shelf.find({}, (err, shelves) => {
+  Book.find({}, (err, books) => {
     if (err) return next(err);
-    res.render('shelves/index', { shelves });
+    res.render('books/index', { books });
   });
 };

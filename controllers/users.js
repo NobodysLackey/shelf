@@ -9,7 +9,7 @@ function index(req, res, next) {
   let sortKey = req.query.sort || 'name';
   User.find(modelQuery).sort(sortKey).exec( (err, users) => {
     if (err) return next(err);
-    res.render('users/index', {
+    res.render('views/index', {
       users,
       user: req.user,
       name: req.query.name,
