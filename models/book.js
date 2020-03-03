@@ -5,7 +5,8 @@ const bookSchema = new Schema ({
     title: String,
     author: String,
     cover: String,
-    length: Number
+    length: Number,
+    read: Boolean
 }, {
     timestamps: true
 });

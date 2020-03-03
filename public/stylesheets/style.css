@@ -114,3 +114,22 @@ h1, h2, h3 {
   background-color: rgb(255, 204, 0);
   cursor: help;
 }
+
+.btn {
+  height: 20px;
+  width: 40px;
+  background-color: rgb(95, 70, 39);
+  color: rgb(255, 255, 255);
+  font-size: 8px;
+  font-weight: bold;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  color: rgb(255, 191, 0);
+  cursor: pointer;
+  outline: none;
+}
