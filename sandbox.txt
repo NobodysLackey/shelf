@@ -1,5 +1,0 @@
-        <% if (user) { %>
-            <a href="/logout" class="navlink">sign out</a>
-        <% } else { %>
-            <a href="/auth/google" class="navlink">sign in</a>
-        <% } %>

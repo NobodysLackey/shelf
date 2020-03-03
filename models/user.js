@@ -1,11 +1,21 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
+const bookSchema = new Schema ({
+    title: String,
+    author: String,
+    publishYear: String,
+    read: false
+}, {
+    timestamps: true
+});
+
 const userSchema = new Schema ({
     name: String,
     email: String,
     avatar: String,
-    googleId: String
+    googleId: String,
+    books: [bookSchema],
 }, {
     timestamps: true
 });

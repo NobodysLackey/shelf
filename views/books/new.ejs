@@ -10,8 +10,17 @@
     <label>Author:
       <input type="text" name="author" autocomplete="off">
     </label><br><br>
-    <label>Length:
-        <input type="text" name="length" autocomplete="off">
+    <label>Pages:
+        <input type="text" name="pages" autocomplete="off">
+    </label><br><br>
+    <label>Read?:
+      <input type="checkbox" name="read" value="read" <%= book.read ? 'checked' : '' %>>
+    </label><br><br>
+    <label>Category:
+      <select name="category">
+        <option value="Fiction">Fiction</option>
+        <option value="Non-Fiction">Non-Fiction</option>
+      </select>
     </label><br><br>
     <center><input type="submit" value="Add" class="btn"></center>
 </form>

@@ -1,6 +1,7 @@
 * {
   font-family: "American Typewriter", sans-serif;
   margin: 0 auto;
+  outline: none;
 }
 
 body {
@@ -10,8 +11,8 @@ body {
 }
 
 #main-page {
-  height: 100vmin;
-  line-height: 100vmin;
+  height: 88vmin;
+  line-height: 88vmin;
 }
 
 #logo {
@@ -132,4 +133,41 @@ h1, h2, h3 {
   color: rgb(255, 191, 0);
   cursor: pointer;
   outline: none;
+}
+
+.result-card {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 200px;
+  color: white;
+  font-size: 10px;
+  background-color: rgb(95, 70, 39);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+}
+
+.cardtitle {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(255, 191, 0);
+}
+
+input {
+  text-align: center;
+  font: 14px "American Typewriter";
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(95, 70, 39);
+  height: 30px;
+  width: 150px;
+}
+
+hr {
+  border-color: rgb(95, 70, 39);
 }
