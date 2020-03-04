@@ -32,7 +32,7 @@ nav {
 }
 
 .logo {
-  width: 6vmin;
+  width: 5vmin;
   height: 17px;
   margin: 13px 0px 0px 0px;
   order: 0;
@@ -44,7 +44,7 @@ nav {
 }
 
 .links {
-  width: 88vmin;
+  width: 90vmin;
   order: 1;
   display: flex;
   justify-content: space-between;
@@ -54,11 +54,11 @@ nav {
 }
 
 .sign-in {
-  width: 6vmin;
+  width: 5vmin;
   height: 17px;
   margin: 13px 0px 0px 0px;
   order: 2;
-  display: flex;
+  display: inline-flex;
   justify-content: flex-end;
   align-items: center;
   font-size: 8px;
@@ -118,6 +118,26 @@ h1, h2, h3 {
 }
 
 .btn:hover {
+  background-color: rgb(255, 191, 0);
+  color: rgb(95, 70, 39);
+  border-color: rgb(95, 70, 39);
+  cursor: pointer;
+}
+
+.deletebtn {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(95, 70, 39);
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+  font-weight: bold;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+.deletebtn:hover {
   background-color: rgb(255, 191, 0);
   color: rgb(95, 70, 39);
   border-color: rgb(95, 70, 39);
