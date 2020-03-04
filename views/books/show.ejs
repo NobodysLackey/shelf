@@ -15,8 +15,8 @@
             <br><br>
         </span>
         <br><br>
-        <form action="/books" method="POST">
-            <select name="rate">
+        <form action="/books/<%= book._id %>/rating" method="POST">
+            <select name="rating">
                 <option value="5">5</option>
                 <option value="4">4</option>
                 <option value="3">3</option>

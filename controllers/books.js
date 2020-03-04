@@ -7,7 +7,8 @@ module.exports = {
   showSearch,
   apiSearch,
   delete: deleteBook,
-  addBook
+  addBook,
+  rateBook
 };
 
 function index(req, res) {
@@ -16,7 +17,7 @@ function index(req, res) {
 
 function show (req, res) {
   User.findById(req.user._id, (err, user) => {
-    let book = user.books[req.params.idx];
+    let book = user.books.id(req.params.id);
       res.render('books/show', {
         book
       });
@@ -69,6 +70,19 @@ function addBook (req, res) {
   User.findById(req.user._id, (err, user) => {
     user.books.push(req.body);
     user.save( (err) => {
+      res.redirect('/books/index')
+    })
+  })
+};
+
+function rateBook (req, res) {
+  User.findById(req.user._id, (err, user) => {
+    let book = user.books.id(req.params.id);
+    req.body.userName = user.googleId;
+    req.body.avatar = user.avatar;
+    book.rating.push(req.body);
+    user.save( (err) => {
+      if (err) console.log(err)
       res.redirect('/books/index')
     })
   })

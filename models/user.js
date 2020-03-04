@@ -5,7 +5,9 @@ const ratingSchema = new Schema ({
     rating: {
         type: String,
         enum: [1, 2, 3, 4, 5]
-    }
+    },
+    userName: String,
+    avatar: String
 }, {
     timestamps: true
 });

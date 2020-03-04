@@ -176,6 +176,12 @@ h1, h2, h3 {
   cursor: pointer;
 }
 
+.searchresults {
+  height: 80vmin;
+  line-height: 80vmin;
+  text-align: center;
+}
+
 .result-card {
   display: flex;
   flex-direction: column-reverse;

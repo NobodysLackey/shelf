@@ -7,8 +7,9 @@
         <button type="submit" class="btn">Go</button>
     </form><br>
     <% if (!results) { %>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-      <h1>:)</h1>
+      <div class="searchresults">
+        <h1>:)</h1>
+      </div>
     <% } else { %>
     <hr>
     <br>
@@ -96,7 +97,7 @@
           </table>
         </div>
         <button type="submit" class="btn">Add</button>
-      </form><br>
+      </form>
     <% } %>
 
 <%- include('../partials/footer') %>
