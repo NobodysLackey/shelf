@@ -31,6 +31,38 @@ nav {
   font-weight: bold;
 }
 
+.spine {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  background-color: rgb(95, 70, 39);
+  height: 600px;
+  width: 400px;
+  border-radius:20px;
+  border-style: solid;
+  border-color: rgb(125, 93, 54);
+  border-width: 7px;
+}
+
+.booktitle {
+  font-weight: bold;
+  color: rgb(255, 191, 0);
+  font-size: 40px;
+  width: 400px;
+  height: 400px;
+  line-height: 400px;
+  text-align: center;
+}
+
+.bookauthor-year {
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
 .logo {
   width: 5vmin;
   height: 17px;
@@ -175,6 +207,17 @@ input {
   border-color: rgb(95, 70, 39);
   height: 30px;
   width: 150px;
+}
+
+select {
+  text-align: center;
+  font: 12px "American Typewriter";
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(95, 70, 39);
+  height: 30px;
+  width: 40px;
 }
 
 hr {
