@@ -13,7 +13,7 @@ router.get('/auth/google', passport.authenticate(
   { scope: ['profile', 'email'] }
 ));
 
-router.get('/shelfcallback', passport.authenticate(
+router.get('/oauth2callback', passport.authenticate(
   'google',
   {
     successRedirect : '/',
