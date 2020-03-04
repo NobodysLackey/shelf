@@ -5,10 +5,5 @@ module.exports = {
 };
 
 function index(req, res) {
-  User.find({}, (err, users) => {
-    if (err) return next(err);
-    res.render('index', { 
-        users,
-        user: req.user });
-  });
+  res.render('index');
 };

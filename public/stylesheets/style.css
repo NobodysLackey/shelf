@@ -17,7 +17,7 @@ body {
 
 #logo {
   color: rgb(95, 70, 39);
-  font-size: 30px;
+  font-size: 100px;
   font-weight: bold;
 }
 
@@ -65,19 +65,7 @@ nav {
   text-align: right;
 }
 
-#navlogo {
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-}
-
-#avatar {
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-}
-
-#anonatar {
+#navlogo, #avatar, #anonatar {
   height: 20px;
   width: 20px;
   border-radius: 50%;
@@ -117,11 +105,11 @@ h1, h2, h3 {
 }
 
 .btn {
-  height: 20px;
-  width: 40px;
+  height: 25px;
+  width: 45px;
   background-color: rgb(95, 70, 39);
   color: rgb(255, 255, 255);
-  font-size: 8px;
+  font-size: 10px;
   font-weight: bold;
   border-style: solid;
   border-color: rgb(255, 255, 255);
@@ -130,9 +118,10 @@ h1, h2, h3 {
 }
 
 .btn:hover {
-  color: rgb(255, 191, 0);
+  background-color: rgb(255, 191, 0);
+  color: rgb(95, 70, 39);
+  border-color: rgb(95, 70, 39);
   cursor: pointer;
-  outline: none;
 }
 
 .result-card {

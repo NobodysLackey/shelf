@@ -1,16 +1,17 @@
 <%- include('../partials/header') %>
 
-  <h1>This is the books search page</h1><br>
+  <h2>Search For a Book</h2><br>
     <form action="/books/search/api" method="POST">
-        <input type="text" name="query" autocomplete="off"><br><br>
+        <input type="text" name="query" autocomplete="off" placeholder="by title...">
+        <br><br>
         <button type="submit" class="btn">Go</button>
     </form><br>
+    <% if (!results) { %>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <h1>:)</h1>
+    <% } else { %>
     <hr>
     <br>
-
-    <% if (!results) { %>
-      <p>No results!</p>
-    <% } else { %>
       <form action="/books/add" method="POST">
         <div class="result-card">
           <table>
@@ -26,7 +27,7 @@
             </tbody>
           </table>
         </div>
-        <button type="submit">Add</button>
+        <button type="submit" class="btn">Add</button>
       </form><br>
       <form action="/books/add" method="POST">
         <div class="result-card">
@@ -43,7 +44,7 @@
             </tbody>
           </table>
         </div>
-        <button type="submit">Add</button>
+        <button type="submit" class="btn">Add</button>
       </form><br>
       <form action="/books/add" method="POST">
         <div class="result-card">
@@ -60,7 +61,7 @@
             </tbody>
           </table>
         </div>
-        <button type="submit">Add</button>
+        <button type="submit" class="btn">Add</button>
       </form><br>
       <form action="/books/add" method="POST">
         <div class="result-card">
@@ -77,7 +78,7 @@
             </tbody>
           </table>
         </div>
-        <button type="submit">Add</button>
+        <button type="submit" class="btn">Add</button>
       </form><br>
       <form action="/books/add" method="POST">
         <div class="result-card">
@@ -94,7 +95,7 @@
             </tbody>
           </table>
         </div>
-        <button type="submit">Add</button>
+        <button type="submit" class="btn">Add</button>
       </form><br>
     <% } %>
 
