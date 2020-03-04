@@ -34,7 +34,7 @@ nav {
 .logo {
   width: 5vmin;
   height: 17px;
-  margin: 13px 0px 0px 0px;
+  margin: 13px 0px 0px 4px;
   order: 0;
   display: inline-flex;
   justify-content: flex-start;
@@ -56,7 +56,7 @@ nav {
 .sign-in {
   width: 5vmin;
   height: 17px;
-  margin: 13px 0px 0px 0px;
+  margin: 13px 4px 0px 0px;
   order: 2;
   display: inline-flex;
   justify-content: flex-end;
