@@ -22,6 +22,7 @@
 ### ***Getting Started***
 
 ##### To get started, just login with your Google account!  Then you can browse for a book.  See a book you like? Just add it to your shelf.
+##### A Trello board used to keep track of development progress can be viewed [here](https://trello.com/b/pp3ws0GX/shelf).
 ##### The project can be viewed [here](https://shelftastic.herokuapp.com/).
 ***
 
@@ -34,9 +35,9 @@
 ### ***User Experience***
 
 #### User Story #1
-##### Maria has a huge collection of books, but loves to go to the bookstore to browse for new ones.  She can never remember which one's she already has! She needs an app that easily let's her find or add the books she owns and store the information in an easily accessible place.  This way she can make sure she doesn't own a book before buying!
+##### Maria has a huge collection of books, but loves to go to the bookstore to browse for new ones.  She can never remember which one's she already has! She needs an app that easily let's her find the books she owns and store the information in an easily accessible place.  This way she can make sure she doesn't own a book before buying!
 #### User Story #2
-##### Skylar only reads spin-off Frozen fan-fiction young adult novels.  She's embarassed for anyone to know about what a weird hobby she has.  She needs an app that allows her to login securely to store a list of her extremely ridiculous books.
+##### Skylar only reads Frozen spin-off fan-fiction young adult novels.  She's embarassed for anyone to know about what a weird hobby she has.  She needs an app that allows her to login securely to store a list of her extremely ridiculous books.
 #### Minimum Viable Product
 * ##### As a user, I should be able to log in with my Google account.
 * ##### As a user, I should be able to find a book.
