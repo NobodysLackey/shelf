@@ -142,16 +142,19 @@ nav {
 }
 
 h1 {
+  font-size: 5vmin;
   color: rgb(95, 70, 39);
   font-weight: bold;
 }
 
 h2 {
+  font-size: 4vmin;
   color: rgb(95, 70, 39);
   font-weight: bold;
 }
 
 h3 {
+  font-size: 3vmin;
   color: rgb(95, 70, 39);
   font-weight: bold;
 }

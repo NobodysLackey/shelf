@@ -1,12 +1,12 @@
 <%- include('../partials/header') %>
 
-  <h2>Your Book List</h2>
+  <h2><%= user.name %>'s Book List</h2>
   <br><br>
     <% if (user.books < 1) { %>
     <span class="message">
     You don't have any books yet.<br><br>
     <h1>😢</h1><br>
-    Click <a href="/books/search">search</a> and find books to add to your list!
+    <a href="/books/search">Search</a> to find books to add to your list!
     </span>
     <% } else { %>
         <table id="list">
