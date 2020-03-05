@@ -59,7 +59,7 @@ function apiSearch (req, res) {
 
 function deleteBook (req, res) {
   User.findById(req.user._id, (err, user) => {
-    user.books.splice(req.params.idx, 1);
+    user.books.splice(req.params.id, 1);
     user.save( (err) => {
       res.redirect('/books/index');
     })
@@ -78,9 +78,7 @@ function addBook (req, res) {
 function rateBook (req, res) {
   User.findById(req.user._id, (err, user) => {
     let book = user.books.id(req.params.id);
-    req.body.userName = user.googleId;
-    req.body.avatar = user.avatar;
-    book.rating.push(req.body);
+    book.rating = req.body;
     user.save( (err) => {
       if (err) console.log(err)
       res.redirect('/books/index')
