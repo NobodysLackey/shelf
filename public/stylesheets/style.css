@@ -221,8 +221,8 @@ h3 {
 }
 
 .searchresults {
-  height: 78vmin;
-  line-height: 78vmin;
+  height: 65vmin;
+  line-height: 65vmin;
   text-align: center;
 }
 
@@ -271,7 +271,9 @@ select {
 }
 
 hr {
-  border-color: rgb(95, 70, 39);
+  border-color: rgb(125, 93, 54);
+  border-style: solid;
+  width: 90vmin;
 }
 
 thead {
