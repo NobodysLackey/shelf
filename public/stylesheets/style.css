@@ -141,7 +141,17 @@ nav {
   text-align: center;
 }
 
-h1, h2, h3 {
+h1 {
+  color: rgb(95, 70, 39);
+  font-weight: bold;
+}
+
+h2 {
+  color: rgb(95, 70, 39);
+  font-weight: bold;
+}
+
+h3 {
   color: rgb(95, 70, 39);
   font-weight: bold;
 }
