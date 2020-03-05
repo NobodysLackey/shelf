@@ -5,16 +5,12 @@
 <section class="book">
     <div class="spine">
         <span class="booktitle">
-            <%= book.title %>
+            <div class="title"><%= book.title %></div>
         </span>
         <span class="bookauthor-year">
-            <br><br><br>
-            <%= book.author %>
-            <br><br>
+            <%= book.author %><br>
             <%= book.publishYear %>
-            <br><br>
-        </span>
-        <br><br>
+        </span><br><br>
         <form action="/books/<%= book._id %>/rating" method="POST">
             <select name="rating">
                 <option value="5">5</option>
@@ -25,7 +21,6 @@
             </select>
             <button type="submit" class="btn">Rate</button>
         </form>
-        <br>
     </div>
 </section>
 

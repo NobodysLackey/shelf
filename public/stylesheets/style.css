@@ -17,62 +17,28 @@ body {
 
 #logo {
   color: rgb(95, 70, 39);
-  font-size: 100px;
+  font-size: 25vmin;
   font-weight: bold;
 }
 
 nav {
   background-color: rgb(95, 70, 39);
-  height: 30px;
+  height: 12vmin;
   box-shadow: 0px 2px 6px 2px;
   display: flex;
   flex-direction: row;
-  line-height: 30px;
-  font-weight: bold;
-}
-
-.spine {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  align-content: center;
-  background-color: rgb(95, 70, 39);
-  height: 600px;
-  width: 400px;
-  border-radius:20px;
-  border-style: solid;
-  border-color: rgb(125, 93, 54);
-  border-width: 7px;
-}
-
-.booktitle {
-  font-weight: bold;
-  color: rgb(255, 191, 0);
-  font-size: 40px;
-  width: 400px;
-  height: 400px;
-  line-height: 400px;
-  text-align: center;
-}
-
-.bookauthor-year {
-  width: 400px;
-  height: 200px;
-  text-align: center;
-  color: rgb(255, 255, 255);
+  line-height: 12vmin;
+  /* font-weight: bold; */
 }
 
 .logo {
   width: 5vmin;
-  height: 17px;
-  margin: 13px 0px 0px 4px;
+  height: 12vmin;
   order: 0;
-  display: inline-flex;
-  justify-content: flex-start;
   align-items: center;
-  font-size: 8px;
-  text-align: left;
+  margin: 2vmin 0vmin 0vmin 3vmin;
+  display: flex;
+  justify-content: space-around;
 }
 
 .links {
@@ -81,26 +47,34 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 12px;
+  font-size: 3vmin;
   text-align: center;
 }
 
 .sign-in {
   width: 5vmin;
-  height: 17px;
-  margin: 13px 4px 0px 0px;
+  height: 12vmin;
   order: 2;
-  display: inline-flex;
-  justify-content: flex-end;
   align-items: center;
-  font-size: 8px;
-  text-align: right;
+  margin: 2vmin 3vmin 0vmin 0vmin;
+  display: flex;
+  justify-content: space-around;
 }
 
 #navlogo, #avatar, #anonatar {
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
+  height: 5vmin;
+  width: 5vmin;
+  border-radius: 20%;
+  border-color: rgb(95, 70, 39);
+  border-width: .4vmin;
+  border-style: solid;
+}
+
+#navlogo:hover, #avatar:hover, #anonatar:hover {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  border-width: .4vmin;
+  border-style: solid;
 }
 
 .navlink {
@@ -114,6 +88,48 @@ nav {
   color: rgb(255, 191, 0);
 }
 
+.spine {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  background-color: rgb(95, 70, 39);
+  height: 80vmin;
+  width: 55vmin;
+  border-radius: 3vmin;
+  border-style: solid;
+  border-color: rgb(125, 93, 54);
+  border-width: 1vmin;
+}
+
+.booktitle {
+  width: 55vmin;
+  height: 60vmin;
+  line-height: 60vmin;
+}
+
+.title {
+  font-family: 'Great Vibes', cursive;
+  word-wrap: normal;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-size: 8vmin;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 10vmin;
+}
+
+.bookauthor-year {
+  width: 55vmin;
+  height: 8vmin;
+  font-size: 2vmin;
+  line-height: 5vmin;
+  color: rgb(255, 191, 0);
+  text-align: center;
+}
+
 h1, h2, h3 {
   color: rgb(95, 70, 39);
   font-weight: bold;
@@ -121,13 +137,13 @@ h1, h2, h3 {
 
 .error {
   width: 90vmin;
-  font-size: 8px;
+  font-size: 1.75vmin;
   text-align: left;
   border-style: solid;
   border-color: rgb(95, 70, 39);
-  border-width: 0.5px;
-  border-radius: 5px;
-  padding: 5px;
+  border-width: .2vmin;
+  border-radius: 1vmin;
+  padding: 1vmin;
   background-color: rgb(230, 173, 0);
 }
 
@@ -137,16 +153,16 @@ h1, h2, h3 {
 }
 
 .btn {
-  height: 25px;
-  width: 45px;
+  height: 4vmin;
+  width: 6vmin;
   background-color: rgb(95, 70, 39);
   color: rgb(255, 255, 255);
-  font-size: 10px;
+  font-size: 1.4vmin;
   font-weight: bold;
   border-style: solid;
   border-color: rgb(255, 255, 255);
-  border-width: 2px;
-  border-radius: 5px;
+  border-width: .3vmin;
+  border-radius: 1vmin;
 }
 
 .btn:hover {
@@ -157,16 +173,16 @@ h1, h2, h3 {
 }
 
 .deletebtn {
-  height: 25px;
-  width: 25px;
+  height: 4vmin;
+  width: 4vmin;
   background-color: rgb(95, 70, 39);
   color: rgb(255, 255, 255);
-  font-size: 10px;
+  font-size: 1.4vmin;
   font-weight: bold;
   border-style: solid;
   border-color: rgb(255, 255, 255);
-  border-width: 2px;
-  border-radius: 5px;
+  border-width: .3vmin;
+  border-radius: 1vmin;
 }
 
 .deletebtn:hover {
@@ -187,15 +203,15 @@ h1, h2, h3 {
   flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
-  height: 100px;
-  width: 200px;
+  height: 10vmin;
+  width: 30vmin;
   color: white;
-  font-size: 10px;
+  font-size: 1.4vmin;
   background-color: rgb(95, 70, 39);
-  border-radius: 5px;
+  border-radius: 1vmin;
   border-style: solid;
-  border-color: white;
-  border-width: 2px;
+  border-color: rgb(125, 93, 54)
+  border-width: .3vmin;
 }
 
 .cardtitle {
@@ -206,26 +222,46 @@ h1, h2, h3 {
 
 input {
   text-align: center;
-  font: 14px "American Typewriter";
-  border-radius: 5px;
+  font: 2.5vmin "American Typewriter";
+  border-radius: 1vmin;
   border-style: solid;
-  border-width: 1px;
+  border-width: .2vmin;
   border-color: rgb(95, 70, 39);
-  height: 30px;
-  width: 150px;
+  height: 5vmin;
+  width: 25vmin;
 }
 
 select {
   text-align: center;
-  font: 12px "American Typewriter";
-  border-radius: 5px;
+  font: 1.5vmin "American Typewriter";
+  border-radius: 1vmin;
   border-style: solid;
-  border-width: 1px;
+  border-width: .1vmin;
   border-color: rgb(95, 70, 39);
-  height: 30px;
-  width: 40px;
+  height: 4vmin;
+  width: 5vmin;
 }
 
 hr {
   border-color: rgb(95, 70, 39);
+}
+
+thead {
+  color: rgb(255, 191, 0);
+  font-size: 2.2vmin;
+}
+
+#list {
+  font-size: 2vmin;
+  background-color: rgb(95, 70, 39);
+  border-color: rgb(125, 93, 54);
+  border-style: solid;
+  border-radius: 1vmin;
+  border-width: .5vmin;
+  padding: 2vmin;
+}
+
+td {
+  padding: 1.3vmin;
+  color: rgb(255, 255, 255);
 }
