@@ -12,18 +12,19 @@
 
 ### ***Technologies Used***
 
-* ##### JavaScript
 * ##### HTML
 * ##### CSS
+* ##### JavaScript
 * ##### Node.js/Express
 * ##### MongoDB/Mongoose
+* ##### Heroku
 ***
 
 ### ***Getting Started***
 
 ##### To get started, just login with your Google account!  Then you can browse for a book.  See a book you like? Just add it to your shelf.
 ##### A Trello board used to keep track of development progress can be viewed [here](https://trello.com/b/pp3ws0GX/shelf).
-##### The project can be viewed [here](https://shelftastic.herokuapp.com/).
+##### The project itself is deployed using Heroku and can be viewed [here](https://shelftastic.herokuapp.com/).
 ***
 
 ### ***Screenshots***
@@ -56,5 +57,5 @@
 
 ### ***Credits***
 
-##### Credit: [Open Library API](https://openlibrary.org/dev/docs/api/books)
+##### External API: [Open Library API](https://openlibrary.org/dev/docs/api/books)
 ***
