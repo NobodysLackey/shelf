@@ -10,18 +10,17 @@
     <body>
         <nav>
             <div class="logo">
-                <a href="/" class="navlink"><img src="/images/logo.png" id="navlogo"></a>
+                <a href="/"><img src="/images/logo.png" id="navlogo"></a>
             </div>
             <div class="links">
-                <a href="/shelves/index" class="navlink">my shelf</a>
-                <a href="/books/index" class="navlink">books</a>
+                <a href="/books/index" class="navlink">my shelf</a>
                 <a href="/books/search" class="navlink">search</a>
             </div>
             <div class="sign-in">
             <% if (user) { %>
-                <a href="/logout" class="navlink"><img src="<%= user.avatar %>" id="avatar"></a>
+                <a href="/logout"><img src="<%= user.avatar %>" id="avatar"></a>
             <% } else { %>
-                <a href="/auth/google" class="navlink"><img src="/images/anon.png" id="anonatar"></a>
+                <a href="/auth/google"><img src="/images/anon.png" id="anonatar"></a>
             <% } %>
             </div>
         </nav>

@@ -21,8 +21,8 @@
 
 ### ***Getting Started***
 
-##### To get started, just login with your Google account!  Then you can browse for a book or add one yourself.  See a book you like, just add it to your shelf.
-##### The project can be viewed [here](url).
+##### To get started, just login with your Google account!  Then you can browse for a book.  See a book you like? Just add it to your shelf.
+##### The project can be viewed [here](https://shelftastic.herokuapp.com/).
 ***
 
 ### ***Screenshots***
@@ -39,18 +39,21 @@
 ##### Skylar only reads spin-off Frozen fan-fiction young adult novels.  She's embarassed for anyone to know about what a weird hobby she has.  She needs an app that allows her to login securely to store a list of her extremely ridiculous books.
 #### Minimum Viable Product
 * ##### As a user, I should be able to log in with my Google account.
-* ##### As a user, I should be able to add a new book or find an existing book.
+* ##### As a user, I should be able to find a book.
 * ##### As a user, I should be able to add books to my shelf.
+* ##### As a user, I should be able to rate a book on my shelf.
+* ##### As a user, I should be able to change a rating I have left.
+* ##### As a user, I should be able to log out.
 ***
 
 ### ***Future Updates***
 
-- [ ] Allow users to search through a large database of books via external API 
+- [x] ~~Allow users to search through a large database of books via external API~~
 - [ ] Allow users to create Favorites Lists
 - [ ] Allow users to view each other's shelves and/or Favorites Lists
 ***
 
 ### ***Credits***
 
-##### Credit: [Description](url)
+##### Credit: [Open Library API](https://openlibrary.org/dev/docs/api/books)
 ***

@@ -35,7 +35,7 @@ a:hover {
 nav {
   background-color: rgb(95, 70, 39);
   height: 12vmin;
-  box-shadow: 0px 2px 6px 2px;
+  box-shadow: 0vmin 0.25vmin 3vmin 0.25vmin rgb(55, 55, 55);
   display: flex;
   flex-direction: row;
   line-height: 12vmin;
@@ -56,7 +56,7 @@ nav {
   width: 90vmin;
   order: 1;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   font-size: 3vmin;
   text-align: center;
@@ -75,7 +75,7 @@ nav {
 #navlogo, #avatar, #anonatar {
   height: 5vmin;
   width: 5vmin;
-  border-radius: 20%;
+  border-radius: 1.5vmin;
   border-color: rgb(95, 70, 39);
   border-width: .4vmin;
   border-style: solid;
@@ -112,6 +112,7 @@ nav {
   border-style: solid;
   border-color: rgb(125, 93, 54);
   border-width: 1vmin;
+  box-shadow: 1vmin 1vmin 2vmin 0vmin rgb(55, 55, 55);
 }
 
 .booktitle {
@@ -189,7 +190,7 @@ h3 {
   border-radius: 1vmin;
 }
 
-.btn:hover {
+.btn:hover, .deletebtn:hover {
   background-color: rgb(255, 191, 0);
   color: rgb(95, 70, 39);
   border-color: rgb(95, 70, 39);
@@ -207,13 +208,6 @@ h3 {
   border-color: rgb(255, 255, 255);
   border-width: .3vmin;
   border-radius: 1vmin;
-}
-
-.deletebtn:hover {
-  background-color: rgb(255, 191, 0);
-  color: rgb(95, 70, 39);
-  border-color: rgb(95, 70, 39);
-  cursor: pointer;
 }
 
 .searchresults {
@@ -239,7 +233,7 @@ h3 {
 }
 
 .cardtitle {
-  font-size: 14px;
+  font-size: 2vmin;
   font-weight: bold;
   color: rgb(255, 191, 0);
 }

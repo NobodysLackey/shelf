@@ -17,7 +17,7 @@ passport.use(new GoogleStrategy({
             return cb(null, user);
           });
       } else {
-          return cb(null, user);
+        return cb(null, user);
       }
       } else {
         // we have a new user via OAuth!
@@ -37,11 +37,11 @@ passport.use(new GoogleStrategy({
 ));
 
 passport.serializeUser( (user, done) => {
-    done(null, user.id);
+  done(null, user.id);
 });
 
 passport.deserializeUser( (id, done) => {
-    User.findById(id, (err, user) => {
-        done (err, user);
-    });
+  User.findById(id, (err, user) => {
+    done (err, user);
+  });
 });
