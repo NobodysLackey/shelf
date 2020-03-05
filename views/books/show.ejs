@@ -8,7 +8,8 @@
         </span>
         <span class="bookauthor-year">
             <%= book.author %><br>
-            <%= book.publishYear %>
+            <%= book.publishYear %><br>
+            <%= book.rating.rating %>
         </span><br><br>
         <form action="/books/<%= book._id %>/rating" method="POST">
             <select name="rating">

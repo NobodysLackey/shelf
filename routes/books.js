@@ -16,8 +16,8 @@ router.delete('/:id', isLoggedIn, booksCtrl.delete);
 router.get('/:id', isLoggedIn, booksCtrl.show);
 
 function isLoggedIn(req, res, next) {
-    if (req.isAuthenticated() ) return next();
-    res.redirect('/auth/google');
-}
+    if (req.isAuthenticated()) return next();
+    res.render('login');
+};
 
 module.exports = router;
