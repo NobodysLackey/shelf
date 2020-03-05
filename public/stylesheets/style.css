@@ -22,8 +22,8 @@ a:hover {
 }
 
 #main-page {
-  height: 100vmin;
-  line-height: 100vmin;
+  height: 80vmin;
+  line-height: 80vmin;
   display: flex;
   justify-content: center;
   flex-direction: column;
