@@ -117,8 +117,8 @@ nav {
 
 .booktitle {
   width: 55vmin;
-  height: 60vmin;
-  line-height: 60vmin;
+  height: 50vmin;
+  line-height: 50vmin;
 }
 
 .title {
@@ -135,7 +135,7 @@ nav {
 
 .bookauthor-year {
   width: 55vmin;
-  height: 8vmin;
+  height: 15vmin;
   font-size: 2vmin;
   line-height: 5vmin;
   color: rgb(255, 191, 0);

@@ -18,8 +18,9 @@ function index(req, res) {
 function show (req, res) {
   User.findById(req.user._id, (err, user) => {
     let book = user.books.id(req.params.id);
+    // let displayRating = book.rating.id(req.params.id)
       res.render('books/show', {
-        book
+        book,
       });
   })
 };
@@ -81,7 +82,7 @@ function rateBook (req, res) {
     book.rating = req.body;
     user.save( (err) => {
       if (err) console.log(err)
-      res.redirect('/books/index')
+      res.redirect(`/books/${book._id}`)
     })
   })
 };

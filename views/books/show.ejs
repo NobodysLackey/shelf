@@ -8,9 +8,17 @@
         </span>
         <span class="bookauthor-year">
             <%= book.author %><br>
-            <%= book.publishYear %><br>
-            <%= book.rating.rating %>
-        </span><br><br>
+            <%= book.publishYear %><br><br>
+            <h3>
+            <% if (book.rating[0]) { %>
+                <% let rat = ''; %>
+                    <% for (let i = 0; i < book.rating[0].rating; i++) { %>
+                        <% rat = rat + '⭐' %>
+                    <% } %>
+                <%= rat %>
+            <% } %>
+            </h3>
+        </span><br><br><br>
         <form action="/books/<%= book._id %>/rating" method="POST">
             <select name="rating">
                 <option value="5">5</option>
