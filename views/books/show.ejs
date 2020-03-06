@@ -10,13 +10,13 @@
             By: <%= book.author %><br>
             Published: <%= book.publishYear %><br>
             <h3>
-            <% if (book.rating[0]) { %>
-                <% let rat = ''; %>
-                    <% for (let i = 0; i < book.rating[0].rating; i++) { %>
-                        <% rat = rat + '⭐' %>
-                    <% } %>
-                <%= rat %>
-            <% } %>
+                <% if (book.rating[0]) { %>
+                    <% let rat = ''; %>
+                        <% for (let i = 0; i < book.rating[0].rating; i++) { %>
+                            <% rat = rat + '⭐' %>
+                        <% } %>
+                    <%= rat %>
+                <% } %>
             </h3>
         </span><br><br><br>
         <form action="/books/<%= book._id %>/rating" method="POST">

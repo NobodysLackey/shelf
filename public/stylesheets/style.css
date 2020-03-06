@@ -21,12 +21,16 @@ a:hover {
   cursor: pointer;
 }
 
+p {
+  color: rgb(95, 70, 39);
+}
+
 nav {
   background-color: rgb(95, 70, 39);
   box-shadow: 0vmin 0.25vmin 3vmin 0.25vmin rgb(55, 55, 55);
   height: 12vmin;
-  display: flex;
   line-height: 12vmin;
+  display: flex;
 }
 
 .logo {
@@ -295,8 +299,4 @@ td {
 
 .message {
   font-size: 2.2vmin;
-}
-
-p {
-  color: rgb(95, 70, 39);
 }

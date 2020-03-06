@@ -17,11 +17,11 @@
                 <a href="/books/index" class="navlink">my shelf</a>
             </div>
             <div class="sign-in">
-            <% if (user) { %>
-                <a href="/logout"><img src="<%= user.avatar %>" id="avatar"></a>
-            <% } else { %>
-                <a href="/auth/google"><img src="/images/anon.png" id="anonatar"></a>
-            <% } %>
+                <% if (user) { %>
+                    <a href="/logout"><img src="<%= user.avatar %>" id="avatar"></a>
+                <% } else { %>
+                    <a href="/auth/google"><img src="/images/anon.png" id="anonatar"></a>
+                <% } %>
             </div>
         </nav>
         <br>
