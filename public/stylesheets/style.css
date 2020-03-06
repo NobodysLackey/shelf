@@ -116,8 +116,8 @@ nav {
   align-items: center;
   align-content: center;
   background-color: rgb(95, 70, 39);
-  height: 80vmin;
-  width: 55vmin;
+  height: 70vmin;
+  width: 45vmin;
   border-radius: 3vmin;
   border-style: solid;
   border-color: rgb(125, 93, 54);
@@ -126,9 +126,9 @@ nav {
 }
 
 .booktitle {
-  width: 55vmin;
-  height: 50vmin;
-  line-height: 50vmin;
+  width: 45vmin;
+  height: 45vmin;
+  line-height: 45vmin;
 }
 
 .title {
@@ -144,8 +144,8 @@ nav {
 }
 
 .bookauthor-year {
-  width: 55vmin;
-  height: 15vmin;
+  width: 45vmin;
+  height: 10vmin;
   font-size: 2vmin;
   line-height: 5vmin;
   color: rgb(255, 191, 0);
@@ -298,4 +298,8 @@ td {
 
 .message {
   font-size: 2.2vmin;
+}
+
+p {
+  color: rgb(95, 70, 39);
 }

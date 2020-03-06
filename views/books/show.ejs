@@ -7,8 +7,8 @@
             <div class="title"><%= book.title %></div>
         </span>
         <span class="bookauthor-year">
-            <%= book.author %><br>
-            <%= book.publishYear %><br><br>
+            By: <%= book.author %><br>
+            Published: <%= book.publishYear %><br>
             <h3>
             <% if (book.rating[0]) { %>
                 <% let rat = ''; %>
@@ -27,9 +27,10 @@
                 <option value="2">2</option>
                 <option value="1">1</option>
             </select>
-            <button type="submit" class="btn">Rate</button>
+            <button type="submit" class="btn">rate</button>
         </form>
     </div>
-</section>
+</section><br>
+<p>go back to <a href="/books/index">my shelf!</a></p>
 
 <%- include('../partials/footer') %>
