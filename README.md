@@ -32,8 +32,11 @@
 ###### Entity Relationship Diagram
 ![ERD](public/images/concept/ERD.png)
 
-###### Concept Wireframe
-![Wireframe](public/images/concept/wireframe.png)
+###### Shelf Wireframe
+![Shelf Wireframe](public/images/concept/wireframe-shelf.png)
+
+###### Search Wireframe
+![Search Wireframe](public/images/concept/wireframe-search.png)
 
 ###### Main Page
 ![Main Page](public/images/screenshots/main-page.png)
