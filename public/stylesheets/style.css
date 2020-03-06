@@ -21,40 +21,23 @@ a:hover {
   cursor: pointer;
 }
 
-#main-page {
-  height: 80vmin;
-  line-height: 80vmin;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  vertical-align: middle;
-}
-
-#logo {
-  color: rgb(95, 70, 39);
-  font-size: 25vmin;
-  font-weight: bold;
-}
-
 nav {
   background-color: rgb(95, 70, 39);
-  height: 12vmin;
   box-shadow: 0vmin 0.25vmin 3vmin 0.25vmin rgb(55, 55, 55);
+  height: 12vmin;
   display: flex;
-  flex-direction: row;
   line-height: 12vmin;
-  /* font-weight: bold; */
 }
 
 .logo {
-  width: 5vmin;
-  height: 12vmin;
+  width: 10vmin;
+  height: 5vmin;
   order: 0;
   align-items: center;
-  margin: 2vmin 0vmin 0vmin 3vmin;
+  margin: 6vmin 0vmin 0vmin 3vmin;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
+  vertical-align: middle;
 }
 
 .links {
@@ -64,17 +47,17 @@ nav {
   justify-content: flex-start;
   align-items: center;
   font-size: 3vmin;
-  text-align: center;
+  text-align: left;
 }
 
 .sign-in {
-  width: 5vmin;
-  height: 12vmin;
+  width: 10vmin;
+  height: 5vmin;
   order: 2;
   align-items: center;
-  margin: 2vmin 3vmin 0vmin 0vmin;
+  margin: 6vmin 3vmin 0vmin 0vmin;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
 }
 
 #navlogo, #avatar, #anonatar {
@@ -91,6 +74,16 @@ nav {
   border-color: rgb(255, 255, 255);
   border-width: .4vmin;
   border-style: solid;
+}
+
+#main-page {
+  height: 80vmin;
+  line-height: 80vmin;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: middle;
 }
 
 #mainlogo {
@@ -285,6 +278,11 @@ tbody {
   text-align: left;
 }
 
+td {
+  padding: 1.3vmin;
+  color: rgb(255, 255, 255);
+}
+
 #list {
   font-size: 2vmin;
   background-color: rgb(95, 70, 39);
@@ -293,11 +291,6 @@ tbody {
   border-radius: 1vmin;
   border-width: .5vmin;
   padding: 2vmin;
-}
-
-td {
-  padding: 1.3vmin;
-  color: rgb(255, 255, 255);
 }
 
 .message {

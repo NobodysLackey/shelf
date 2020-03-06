@@ -75,6 +75,7 @@
 - [x] ~~Make app completely scalable for mobile~~
 - [ ] Identify and pull more useful info from API
 - [ ] Display book covers
+- [ ] Make shelf view appear as book spines on a shelf
 - [ ] Show a list of all users
 - [ ] Allow users to leave written reviews for books
 - [ ] Create a profile view
