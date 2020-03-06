@@ -281,6 +281,10 @@ thead {
   font-size: 2.2vmin;
 }
 
+tbody {
+  text-align: left;
+}
+
 #list {
   font-size: 2vmin;
   background-color: rgb(95, 70, 39);
