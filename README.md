@@ -72,6 +72,7 @@
 ### ***Future Updates***
 
 - [x] ~~Allow users to search through a large database of books via external API~~
+- [x] ~~Make app completely scalable for mobile~~
 - [ ] Identify and pull more useful info from API
 - [ ] Display book covers
 - [ ] Show a list of all users
