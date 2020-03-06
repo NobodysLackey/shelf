@@ -35,14 +35,23 @@
 ###### Concept Wireframe
 ![Wireframe](public/images/concept/wireframe.png)
 
-###### Entity Relationship Diagram
-![ERD](public/images/concept/ERD.png)
+###### Main Page
+![Main Page](public/images/screenshots/main-page.png)
 
-###### Entity Relationship Diagram
-![ERD](public/images/concept/ERD.png)
+###### Search Page
+![Search Page](public/images/screenshots/search-page.png)
 
-###### Entity Relationship Diagram
-![ERD](public/images/concept/ERD.png)
+###### Shelf
+![Shelf](public/images/screenshots/shelf-page.png)
+
+###### Book Details
+![Book Details](public/images/screenshots/book-page.png)
+
+###### Error Screen
+![Error Screen](public/images/screenshots/error-page.png)
+
+###### Not Logged In
+![Not Logged In](public/images/screenshots/login-page.png)
 ***
 
 ### ***User Experience***
@@ -63,6 +72,8 @@
 ### ***Future Updates***
 
 - [x] ~~Allow users to search through a large database of books via external API~~
+- [ ] Identify and pull more useful info from API
+- [ ] Display book covers
 - [ ] Show a list of all users
 - [ ] Allow users to leave written reviews for books
 - [ ] Create a profile view
