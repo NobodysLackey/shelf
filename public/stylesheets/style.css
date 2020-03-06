@@ -61,7 +61,7 @@ nav {
   width: 90vmin;
   order: 1;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   font-size: 3vmin;
   text-align: center;

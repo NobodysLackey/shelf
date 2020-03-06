@@ -4,18 +4,18 @@
   <br><br>
     <% if (user.books < 1) { %>
     <span class="message">
-    you don't have any books yet.<br><br>
+    You don't have any books yet.<br><br>
     <h1>😢</h1><br>
-    <a href="/books/search">find a book</a> to add to your list!
+    <a href="/books/search">Find a book</a> to add to your list!
     </span>
     <% } else { %>
         <table id="list">
             <thead>
                 <tr>
-                    <th>details</th>
-                    <th>title</th>
-                    <th>author</th>
-                    <th>remove</th>
+                    <th></th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th></th>
                 </tr>
             </thead>
             <tbody>
@@ -37,7 +37,7 @@
                 <% }); %>
             </tbody>
         </table><br>
-            <p><a href="/books/search">add another</a> book to your shelf!</p>
+            <p><a href="/books/search">Add another</a> book to your shelf!</p>
         <br>
     <% } %>
 
