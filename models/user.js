@@ -21,7 +21,6 @@ const bookSchema = new Schema ({
 
 const userSchema = new Schema ({
     name: String,
-    email: String,
     avatar: String,
     googleId: String,
     books: [bookSchema]

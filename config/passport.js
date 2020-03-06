@@ -23,9 +23,8 @@ passport.use(new GoogleStrategy({
         // we have a new user via OAuth!
         let newUser = new User({
           name: profile.displayName,
-          email: profile.emails[0].value,
-          googleId: profile.id,
-          avatar: profile.photos[0].value
+          avatar: profile.photos[0].value,
+          googleId: profile.id
         });
         newUser.save( (err) => {
           if (err) return cb(err);

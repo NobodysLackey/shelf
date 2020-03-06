@@ -1,4 +1,4 @@
-# **/shelf**
+![/shelf](public/images/logo.png)
 
 ### Date: 3/9/2020
 
@@ -7,7 +7,7 @@
 
 ### ***Description***
 
-##### Shelf is an app that allows you to easily keep track of books.  Whether they are books you own, want, have read, etc.: it's up to you! Just select a book and put it on your shelf so you can reference it later! 
+##### Shelf is an app that allows you to easily keep track of books.  Whether they are books you own, want, or have already read: it's up to you! Just select a book and put it on your shelf so you can reference it later! 
 ***
 
 ### ***Technologies Used***
@@ -22,12 +22,24 @@
 
 ### ***Getting Started***
 
-##### To get started, just login with your Google account!  Then you can browse for a book.  See a book you like? Just add it to your shelf.
-##### A Trello board used to keep track of development progress can be viewed [here](https://trello.com/b/pp3ws0GX/shelf).
-##### The project itself is deployed using Heroku and can be viewed [here](https://shelftastic.herokuapp.com/).
+##### To get started, just login with your Google account, then you can browse for a book.  See a book you like? Just add it to your shelf.
+##### A Trello board was used to keep track of development progress and can be viewed [here](https://trello.com/b/pp3ws0GX/shelf).
+##### The project itself was deployed using Heroku and can be viewed [here](https://shelftastic.herokuapp.com/).
 ***
 
 ### ***Screenshots***
+
+###### Entity Relationship Diagram
+![ERD](public/images/concept/ERD.png)
+
+###### Concept Wireframe
+![Wireframe](public/images/concept/wireframe.png)
+
+###### Entity Relationship Diagram
+![ERD](public/images/concept/ERD.png)
+
+###### Entity Relationship Diagram
+![ERD](public/images/concept/ERD.png)
 
 ###### Entity Relationship Diagram
 ![ERD](public/images/concept/ERD.png)
@@ -41,16 +53,19 @@
 ##### Skylar only reads Frozen spin-off fan-fiction young adult novels.  She's embarassed for anyone to know about what a weird hobby she has.  She needs an app that allows her to login securely to store a list of her extremely ridiculous books.
 #### Minimum Viable Product
 * ##### As a user, I should be able to log in with my Google account.
-* ##### As a user, I should be able to find a book.
+* ##### As a user, I should be able to search for a book.
 * ##### As a user, I should be able to add books to my shelf.
 * ##### As a user, I should be able to rate a book on my shelf.
-* ##### As a user, I should be able to change a rating I have left.
+* ##### As a user, I should be able to change the rating of a book.
 * ##### As a user, I should be able to log out.
 ***
 
 ### ***Future Updates***
 
 - [x] ~~Allow users to search through a large database of books via external API~~
+- [ ] Show a list of all users
+- [ ] Allow users to leave written reviews for books
+- [ ] Create a profile view
 - [ ] Allow users to create Favorites Lists
 - [ ] Allow users to view each other's shelves and/or Favorites Lists
 ***
