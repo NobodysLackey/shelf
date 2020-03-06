@@ -1,6 +1,6 @@
 ![/shelf](public/images/logo.png)
 
-### Date: 3/9/2020
+### Date: 3/6/2020
 
 #### By: Michael Lackey
 ***
@@ -22,7 +22,7 @@
 
 ### ***Getting Started***
 
-##### To get started, just login with your Google account, then you can browse for a book.  See a book you like? Just add it to your shelf.
+##### Just login with your Google accountand use the search page to find a book.  See a book you like? Just add it to your shelf.
 ##### A Trello board was used to keep track of development progress and can be viewed [here](https://trello.com/b/pp3ws0GX/shelf).
 ##### The project itself was deployed using Heroku and can be viewed [here](https://shelftastic.herokuapp.com/).
 ***
