@@ -3,8 +3,7 @@
 ### Date: 3/6/2020
 
 #### By: Michael Lackey
-#### [GitHub](https://github.com/mlackey9601)
-#### [LinkedIn](https://www.linkedin.com/in/michaelglackey/)
+#### [GitHub](https://github.com/mlackey9601) | [LinkedIn](https://www.linkedin.com/in/michaelglackey/)
 ***
 
 ### ***Description***
