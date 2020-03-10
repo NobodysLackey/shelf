@@ -19,11 +19,12 @@
 * ##### Node.js/Express
 * ##### MongoDB/Mongoose
 * ##### Heroku
+* ##### Chajr 1.1.4
 ***
 
 ### ***Getting Started***
 
-##### Just login with your Google accountand use the search page to find a book.  See a book you like? Just add it to your shelf.
+##### Just login with your Google account and use the search page to find a book.  See a book you like? Just add it to your shelf.
 ##### A Trello board was used to keep track of development progress and can be viewed [here](https://trello.com/b/pp3ws0GX/shelf).
 ##### The project itself was deployed using Heroku and can be viewed [here](https://shelftastic.herokuapp.com/).
 ***
@@ -61,16 +62,16 @@
 ### ***User Experience***
 
 #### User Story #1
-##### Maria has a huge collection of books, but loves to go to the bookstore to browse for new ones.  She can never remember which one's she already has! She needs an app that easily let's her find the books she owns and store the information in an easily accessible place.  This way she can make sure she doesn't own a book before buying!
+##### Maria has a huge collection of books, but loves to go to the bookstore to browse for new ones.  She can never remember which books she already has! She needs an app that easily lets her find the books she owns and store the information in an easily accessible place.  This way she can make sure she doesn't own a book before buying!
 #### User Story #2
 ##### Skylar only reads Frozen spin-off fan-fiction young adult novels.  She's embarassed for anyone to know about what a weird hobby she has.  She needs an app that allows her to login securely to store a list of her extremely ridiculous books.
-#### Minimum Viable Product
-* ##### As a user, I should be able to log in with my Google account.
-* ##### As a user, I should be able to search for a book.
-* ##### As a user, I should be able to add books to my shelf.
-* ##### As a user, I should be able to rate a book on my shelf.
-* ##### As a user, I should be able to change the rating of a book.
-* ##### As a user, I should be able to log out.
+#### As a user...
+* ##### I should be able to log in with my Google account.
+* ##### I should be able to search for a book.
+* ##### I should be able to add books to my shelf.
+* ##### I should be able to rate a book on my shelf.
+* ##### I should be able to change the rating of a book.
+* ##### I should be able to log out.
 ***
 
 ### ***Future Updates***
@@ -90,4 +91,5 @@
 ### ***Credits***
 
 ##### External API: [Open Library API](https://openlibrary.org/dev/docs/api/books)
+##### App Scaffolding: [Chajr](https://github.com/davidstinson/chajr)
 ***
