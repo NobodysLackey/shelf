@@ -62,7 +62,7 @@
 ### ***User Experience***
 
 #### User Story #1
-##### Maria has a huge collection of books, but loves to go to the bookstore to browse for new ones.  She can never remember which books she already has! She needs an app that easily lets her find the books she owns and store the information in an easily accessible place.  This way she can make sure she doesn't own a book before buying!
+##### Maria has a huge collection of books, but loves to go to the bookstore to browse for new ones.  She can never remember which books she already has! She needs an app that lets her find the books she owns and store the information in an easily accessible place.  This way she can make sure she doesn't own a book before buying!
 #### User Story #2
 ##### Skylar only reads Frozen spin-off fan-fiction young adult novels.  She's embarassed for anyone to know about what a weird hobby she has.  She needs an app that allows her to login securely to store a list of her extremely ridiculous books.
 #### As a user...
