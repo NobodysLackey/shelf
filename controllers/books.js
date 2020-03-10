@@ -18,7 +18,6 @@ function index(req, res) {
 function show (req, res) {
   User.findById(req.user._id, (err, user) => {
     let book = user.books.id(req.params.id);
-    // let displayRating = book.rating.id(req.params.id)
       res.render('books/show', {
         book,
       });
@@ -44,9 +43,7 @@ function apiSearch (req, res) {
     .then( response => {
       let keys = Object.keys(response.data);
       let key = keys[0];
-      // console.log(key);
       let bookImage = response.data;
-      // console.log('Book Image:' + bookImage);
       res.render('books/search', {
         results: results,
         bookImage: bookImage
