@@ -13,13 +13,13 @@
 
 ### ***Technologies Used***
 
+* ##### Chajr 1.1.4
 * ##### HTML
 * ##### CSS
 * ##### JavaScript
 * ##### Node.js/Express
 * ##### MongoDB/Mongoose
 * ##### Heroku
-* ##### Chajr 1.1.4
 ***
 
 ### ***Getting Started***
