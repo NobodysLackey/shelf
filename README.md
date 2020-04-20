@@ -31,15 +31,6 @@
 
 ### ***Screenshots***
 
-###### Entity Relationship Diagram
-![ERD](public/images/concept/ERD.png)
-
-###### Shelf Wireframe
-![Shelf Wireframe](public/images/concept/wireframe-shelf.png)
-
-###### Search Wireframe
-![Search Wireframe](public/images/concept/wireframe-search.png)
-
 ###### Main Page
 ![Main Page](public/images/screenshots/main-page.png)
 
@@ -57,21 +48,6 @@
 
 ###### Not Logged In
 ![Not Logged In](public/images/screenshots/login-page.png)
-***
-
-### ***User Experience***
-
-#### User Story #1
-##### Maria has a huge collection of books, but loves to go to the bookstore to browse for new ones.  She can never remember which books she already has! She needs an app that lets her find the books she owns and store the information in an easily accessible place.  This way she can make sure she doesn't own a book before buying!
-#### User Story #2
-##### Skylar only reads Frozen spin-off fan-fiction young adult novels.  She's embarassed for anyone to know about what a weird hobby she has.  She needs an app that allows her to login securely to store a list of her extremely ridiculous books.
-#### As a user...
-* ##### I should be able to log in with my Google account.
-* ##### I should be able to search for a book.
-* ##### I should be able to add books to my shelf.
-* ##### I should be able to rate a book on my shelf.
-* ##### I should be able to change the rating of a book.
-* ##### I should be able to log out.
 ***
 
 ### ***Future Updates***
