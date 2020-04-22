@@ -66,6 +66,7 @@
 
 ### ***Credits***
 
-##### External API: [Open Library API](https://openlibrary.org/dev/docs/api/books)
 ##### App Scaffolding: [Chajr](https://github.com/davidstinson/chajr)
+
+##### External API: [Open Library API](https://openlibrary.org/dev/docs/api/books)
 ***
