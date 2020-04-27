@@ -30,20 +30,11 @@
 ###### Main Page
 ![Main Page](public/images/screenshots/main-page.png)
 
-###### Search Page
-![Search Page](public/images/screenshots/search-page.png)
-
 ###### Shelf
 ![Shelf](public/images/screenshots/shelf-page.png)
 
 ###### Book Details
 ![Book Details](public/images/screenshots/book-page.png)
-
-###### Error Screen
-![Error Screen](public/images/screenshots/error-page.png)
-
-###### Not Logged In
-![Not Logged In](public/images/screenshots/login-page.png)
 ***
 
 ### ***Future Updates***
@@ -64,5 +55,5 @@
 
 ##### App Scaffolding: [Chajr 1.1.4](https://github.com/davidstinson/chajr)
 
-##### External API: [Open Library API](https://openlibrary.org/dev/docs/api/books)
+##### External API: [Open Library](https://openlibrary.org/dev/docs/api/books)
 ***
