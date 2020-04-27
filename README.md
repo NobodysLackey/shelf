@@ -1,4 +1,4 @@
-![/shelf](public/images/logo.png)
+![/shelf](public/images/banner.png)
 
 ### Date: 3/6/2020
 
@@ -12,14 +12,10 @@
 ***
 
 ### ***Technologies Used***
+![Technologies Used](public/images/tech-banner.png)
 
-* ##### Chajr 1.1.4
-* ##### HTML
-* ##### CSS
-* ##### JavaScript
-* ##### Node.js/Express
-* ##### MongoDB/Mongoose
-* ##### Heroku
+##### ***Additional Technologies***
+* Chajr 1.1.4
 ***
 
 ### ***Getting Started***
