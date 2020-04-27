@@ -62,7 +62,7 @@
 
 ### ***Credits***
 
-##### App Scaffolding: [Chajr](https://github.com/davidstinson/chajr)
+##### App Scaffolding: [Chajr 1.1.4](https://github.com/davidstinson/chajr)
 
 ##### External API: [Open Library API](https://openlibrary.org/dev/docs/api/books)
 ***
