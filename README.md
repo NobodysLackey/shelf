@@ -15,7 +15,7 @@
 ![Technologies Used](public/images/tech-banner.png)
 
 ##### ***Additional Technologies***
-* Chajr 1.1.4
+* ###### Chajr 1.1.4
 ***
 
 ### ***Getting Started***
