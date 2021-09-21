@@ -27,14 +27,12 @@
 
 ### ***Screenshots***
 
-###### Main Page
-![Main Page](public/images/screenshots/main-page.png)
+<div align="center">
+  <pre>
+    <img src="public/images/screenshots/main-page.png" height="500" />&nbsp;&nbsp;&nbsp;<img src="public/images/screenshots/shelf-page.png" height="500" />&nbsp;&nbsp;&nbsp;<img src="public/images/screenshots/book-page.png" height="500" />
+  </pre>
+</div>
 
-###### Shelf
-![Shelf](public/images/screenshots/shelf-page.png)
-
-###### Book Details
-![Book Details](public/images/screenshots/book-page.png)
 ***
 
 ### ***Future Updates***
