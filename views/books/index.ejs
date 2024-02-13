@@ -1,44 +1,45 @@
 <%- include('../partials/header') %>
 
-  <h2><%= user.name %>'s shelf</h2>
-  <br><br>
-    <% if (user.books < 1) { %>
-    <span class="message">
-    <p>You don't have any books yet.</p><br><br>
-    <h1>😢</h1><br>
-    <p><a href="/books/search">Find a book</a> to add to your list!</p>
-    </span>
-    <% } else { %>
-        <table id="list">
-            <thead>
-                <tr>
-                    <th></th>
-                    <th>Title</th>
-                    <th>Author</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-                <% user.books.forEach((book, idx) => { %>
-                    <tr>
-                        <td>
-                            <form action="/books/<%= book._id %>" method="GET">
-                                <button type="submit" class="btn">view</button>
-                            </form>
-                        </td>
-                        <td><%= book.title %></td>
-                        <td><%= book.author %></td>
-                        <td>
-                            <form action="/books/<%= idx %>?_method=DELETE" method="POST">
-                                <button type="submit" class="deletebtn">x</button>
-                            </form>
-                        </td>
-                    </tr>
-                <% }); %>
-            </tbody>
-        </table><br>
-            <p><a href="/books/search">Add another</a> book to your shelf!</p>
-        <br>
-    <% } %>
-
-<%- include('../partials/footer') %>
+<h2><%= user.name %>'s shelf</h2>
+<br /><br />
+<% if (user.books < 1) { %>
+<span class="message">
+  <p>You don't have any books yet.</p>
+  <br /><br />
+  <h1>😢</h1>
+  <br />
+  <p><a href="/books/search">Find a book</a> to add to your list!</p>
+</span>
+<% } else { %>
+<table id="list">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Title</th>
+      <th>Author</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% user.books.forEach((book, idx) => { %>
+    <tr>
+      <td>
+        <form action="/books/<%= book._id %>" method="GET">
+          <button type="submit" class="btn">view</button>
+        </form>
+      </td>
+      <td><%= book.title %></td>
+      <td><%= book.author %></td>
+      <td>
+        <form action="/books/<%= idx %>?_method=DELETE" method="POST">
+          <button type="submit" class="deletebtn">x</button>
+        </form>
+      </td>
+    </tr>
+    <% }); %>
+  </tbody>
+</table>
+<br />
+<p><a href="/books/search">Add another</a> book to your shelf!</p>
+<br />
+<% } %> <%- include('../partials/footer') %>

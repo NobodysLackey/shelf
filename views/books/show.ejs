@@ -1,36 +1,33 @@
 <%- include('../partials/header') %>
 
-<br>
+<br />
 <section class="book">
-    <div class="spine">
-        <span class="booktitle">
-            <div class="title"><%= book.title %></div>
-        </span>
-        <span class="bookauthor-year">
-            By: <%= book.author %><br>
-            Published: <%= book.publishYear %><br>
-            <h3>
-                <% if (book.rating[0]) { %>
-                    <% let rat = ''; %>
-                        <% for (let i = 0; i < book.rating[0].rating; i++) { %>
-                            <% rat = rat + '⭐' %>
-                        <% } %>
-                    <%= rat %>
-                <% } %>
-            </h3>
-        </span><br><br><br>
-        <form action="/books/<%= book._id %>/rating" method="POST">
-            <select name="rating">
-                <option value="5">5</option>
-                <option value="4">4</option>
-                <option value="3">3</option>
-                <option value="2">2</option>
-                <option value="1">1</option>
-            </select>
-            <button type="submit" class="btn">rate</button>
-        </form>
-    </div>
-</section><br>
+  <div class="spine">
+    <span class="booktitle">
+      <div class="title"><%= book.title %></div>
+    </span>
+    <span class="bookauthor-year">
+      By: <%= book.author %><br />
+      Published: <%= book.publishYear %><br />
+      <h3>
+        <% if (book.rating[0]) { %> <% let rat = ''; %> <% for (let i = 0; i <
+        book.rating[0].rating; i++) { %> <% rat = rat + '⭐' %> <% } %> <%= rat
+        %> <% } %>
+      </h3> </span
+    ><br /><br /><br />
+    <form action="/books/<%= book._id %>/rating" method="POST">
+      <select name="rating">
+        <option value="5">5</option>
+        <option value="4">4</option>
+        <option value="3">3</option>
+        <option value="2">2</option>
+        <option value="1">1</option>
+      </select>
+      <button type="submit" class="btn">rate</button>
+    </form>
+  </div>
+</section>
+<br />
 <p>Go back to <a href="/books/index">my shelf!</a></p>
 
 <%- include('../partials/footer') %>

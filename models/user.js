@@ -1,31 +1,40 @@
-const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
+const mongoose = require('mongoose')
+const Schema = mongoose.Schema
 
-const ratingSchema = new Schema ({
+const ratingSchema = new Schema(
+  {
     rating: {
-        type: String,
-        enum: [1, 2, 3, 4, 5]
-    },
-}, {
+      type: String,
+      enum: [1, 2, 3, 4, 5]
+    }
+  },
+  {
     timestamps: true
-});
+  }
+)
 
-const bookSchema = new Schema ({
+const bookSchema = new Schema(
+  {
     title: String,
     author: String,
     publishYear: String,
     rating: [ratingSchema]
-}, {
+  },
+  {
     timestamps: true
-});
+  }
+)
 
-const userSchema = new Schema ({
+const userSchema = new Schema(
+  {
     name: String,
     avatar: String,
     googleId: String,
     books: [bookSchema]
-}, {
+  },
+  {
     timestamps: true
-});
+  }
+)
 
-module.exports = mongoose.model('User', userSchema);
+module.exports = mongoose.model('User', userSchema)
