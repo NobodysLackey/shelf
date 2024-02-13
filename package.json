@@ -27,15 +27,15 @@
   "description": "### Date: MM/DD/YYYY",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mlackey9601/shelf.git"
+    "url": "git+https://github.com/NobodysLackey/shelf.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mlackey9601/shelf/issues"
+    "url": "https://github.com/NobodysLackey/shelf/issues"
   },
-  "homepage": "https://github.com/mlackey9601/shelf#readme",
+  "homepage": "https://my-shelf.fly.dev",
   "devDependencies": {
     "@flydotio/dockerfile": "^0.5.2",
     "mquery": "^3.2.3"
