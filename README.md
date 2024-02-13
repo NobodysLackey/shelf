@@ -22,7 +22,7 @@
 
 ##### Just login with your Google account and use the search page to find a book.  See a book you like? Just add it to your shelf.
 ##### A Trello board was used to keep track of development progress and can be viewed [here](https://trello.com/b/pp3ws0GX/shelf).
-##### The project itself was deployed using Heroku and can be viewed [here](https://my-shelf.fly.dev/).
+##### The project itself was deployed using fly.io and can be viewed [here](https://my-shelf.fly.dev/).
 ***
 
 ### ***Screenshots***
