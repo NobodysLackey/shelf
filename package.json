@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node --watch ./bin/www"
+    "start": "node --watch ./bin/www",
+    "deploy": "flyctl deploy"
   },
   "dependencies": {
     "axios": "^1.6.7",
